@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JG9-E0-cde">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cat" translatesAutoresizingMaskIntoConstraints="NO" id="VSN-cJ-qhs">
+                                        <rect key="frame" x="-303.66666666666669" y="329.66666666666669" width="1000.3333333333335" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1000" id="AOm-Tn-37p"/>
+                                            <constraint firstAttribute="height" constant="100" id="PZP-6I-RmV"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="VSN-cJ-qhs" firstAttribute="centerY" secondItem="JG9-E0-cde" secondAttribute="centerY" id="2lk-Fc-Llr"/>
+                                    <constraint firstItem="VSN-cJ-qhs" firstAttribute="centerX" secondItem="JG9-E0-cde" secondAttribute="centerX" id="odQ-fk-kSe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.83806043860000001" green="0.61037939789999995" blue="0.40730410810000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="JG9-E0-cde" secondAttribute="bottom" id="HVA-hY-DYh"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="JG9-E0-cde" secondAttribute="trailing" id="TXe-ek-d1U"/>
+                            <constraint firstItem="JG9-E0-cde" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="hOb-GJ-fa1"/>
+                            <constraint firstItem="JG9-E0-cde" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="vrV-Xz-NVc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cat" width="1024" height="1024"/>
+    </resources>
+</document>
